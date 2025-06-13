@@ -93,8 +93,8 @@
           "settings": {
             "image_width": 150,
             "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
-            "content": ""
+            "title": "Inscrivez-vous à notre newsletter",
+            "content": "<p>Inscrivez-vous avec votre adresse email pour recevoir des actualités et des offres exclusives.</p>"
           }
         },
         "links": {
@@ -107,8 +107,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "Contact",
+            "content": "<p><strong>E-mail: contact@baliea.com</strong></p><p>Lundi - Vendredi 9h - 18h</p><p>Samedi & Dimanche : 10h - 17h</p>",
             "enable_follow_on_shop": true
           }
         }

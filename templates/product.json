@@ -138,8 +138,8 @@
           "settings": {
             "show_payment_button": true,
             "show_gift_card_recipient": true,
-            "atc_button_background": "#c89a66",
-            "atc_button_text_color": "",
+            "atc_button_background": "#c9a072",
+            "atc_button_text_color": "#ffffff",
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
@@ -356,8 +356,8 @@
         "collections_per_row": 3,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "Elles en parlent le mieux",
-        "content": "",
+        "title": "",
+        "content": "<h4>Elles en parlent le mieux</h4>",
         "link_url": "",
         "link_text": "View all",
         "background": "",
@@ -381,14 +381,86 @@
         "overlay_opacity": 0
       }
     },
+    "collection_list_tkBjKK": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_36nDtb": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Extrait_de_Noyau_d_Argan.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 41
+          }
+        },
+        "collection_WBm4HC": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Retinol.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_rVLBGt": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Peptides.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_36nDtb",
+        "collection_WBm4HC",
+        "collection_rVLBGt"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "<h4>Effacez les rides & Restaurez l’élasticité de votre peau</h4>",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "before_after_image_z7yDEx": {
       "type": "before-after-image",
       "name": "Before/after image",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "subheading": "",
-        "title": "Avant/Après",
-        "content": "<p>Un bronzage naturel et sain, sans UV</p>",
+        "title": "",
+        "content": "",
         "before_image": "shopify://shop_images/gempages_554359021138608948-d4bdd64f-9a29-4c2b-bf11-872af77e58bc.jpg",
         "after_image": "shopify://shop_images/gempages_554359021138608948-4f730d79-10ab-42bb-b955-9485463776bb_1.jpg",
         "expand_image": false,
@@ -404,6 +476,40 @@
         "after_text_color": "#ffffff",
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#000000"
+      }
+    },
+    "text_with_icons_w4rh7C": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_Lr9Rm6": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Untitled_design_10_1.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Lr9Rm6"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "slideshow_9KcdTP": {
@@ -450,6 +556,13 @@
     "faq_Gfyckh": {
       "type": "faq",
       "blocks": {
+        "item_L46mqW": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
         "item_rYKtJr": {
           "type": "item",
           "settings": {
@@ -457,11 +570,39 @@
             "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
           }
         },
+        "item_HHzW4c": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
         "item_nykV9G": {
           "type": "item",
           "settings": {
             "title": "How long will it take to get my orders?",
             "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_yJFf78": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_fmPBMd": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_3CqPrU": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         },
         "item_ypqPTc": {
@@ -473,8 +614,13 @@
         }
       },
       "block_order": [
+        "item_L46mqW",
         "item_rYKtJr",
+        "item_HHzW4c",
         "item_nykV9G",
+        "item_yJFf78",
+        "item_fmPBMd",
+        "item_3CqPrU",
         "item_ypqPTc"
       ],
       "name": "FAQ",
@@ -509,7 +655,9 @@
     "multiple_images_with_text_7Dq6X7",
     "collection_list_TPGLDx",
     "video_6TL7za",
+    "collection_list_tkBjKK",
     "before_after_image_z7yDEx",
+    "text_with_icons_w4rh7C",
     "slideshow_9KcdTP",
     "faq_Gfyckh"
   ]
