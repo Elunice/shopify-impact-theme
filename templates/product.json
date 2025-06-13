@@ -9,21 +9,63 @@
  */
 {
   "sections": {
-    "newsletter_K4xmHj": {
-      "type": "newsletter",
-      "name": "Newsletter",
+    "logo_list_BErLBQ": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_A87Uzf": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/1200px-VOGUE_revista_-_logo_1.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_kApkjM": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Comopolitan_Magazine_Logo_svg_2.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "logo_EnAhiy": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo-seo.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_wdLyb9": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo.svg_1_2.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_A87Uzf",
+        "logo_kApkjM",
+        "logo_EnAhiy",
+        "logo_wdLyb9"
+      ],
+      "name": "Logo list",
       "settings": {
         "full_width": true,
-        "show_icon": true,
-        "title": "Newsletter",
-        "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.</p>",
-        "button_text": "Subscribe",
-        "subtext": "",
-        "background": "",
+        "stack_mobile": true,
+        "title": "",
+        "content": "<h4>Vue sur :</h4>",
+        "text_alignment": "center",
+        "items_per_row": 4,
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#ffffff",
+        "logo_item_border": ""
       }
     },
     "slideshow_Xcwy3f": {
@@ -192,7 +234,7 @@
     }
   },
   "order": [
-    "newsletter_K4xmHj",
+    "logo_list_BErLBQ",
     "slideshow_Xcwy3f",
     "main",
     "related-products"
