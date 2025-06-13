@@ -9,6 +9,65 @@
  */
 {
   "sections": {
+    "newsletter_K4xmHj": {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "full_width": true,
+        "show_icon": true,
+        "title": "Newsletter",
+        "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.</p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "slideshow_Xcwy3f": {
+      "type": "slideshow",
+      "blocks": {
+        "image_3y3Hwg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_Template_section_benefice_4.png",
+            "mobile_image": "shopify://shop_images/Copie_de_Template_section_benefice_4.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3y3Hwg"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -133,6 +192,8 @@
     }
   },
   "order": [
+    "newsletter_K4xmHj",
+    "slideshow_Xcwy3f",
     "main",
     "related-products"
   ]
