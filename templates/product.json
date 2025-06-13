@@ -56,28 +56,35 @@
         "collapsible_text_yWqGPc": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Title",
+            "title": "Détails du produit",
             "content": "<p>Share some content to your customers about your products.</p>"
           }
         },
         "collapsible_text_QWYf9J": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Title",
+            "title": "Ingrédients",
             "content": "<p>Share some content to your customers about your products.</p>"
           }
         },
         "collapsible_text_EDhBjN": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Title",
+            "title": "Comment utiliser",
             "content": "<p>Share some content to your customers about your products.</p>"
           }
         },
         "collapsible_text_epy8tj": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Title",
+            "title": "Livraison & délais",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_YRLM4n": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Retours & remboursements",
             "content": "<p>Share some content to your customers about your products.</p>"
           }
         }
@@ -93,7 +100,8 @@
         "collapsible_text_yWqGPc",
         "collapsible_text_QWYf9J",
         "collapsible_text_EDhBjN",
-        "collapsible_text_epy8tj"
+        "collapsible_text_epy8tj",
+        "collapsible_text_YRLM4n"
       ],
       "settings": {
         "full_width": true,
