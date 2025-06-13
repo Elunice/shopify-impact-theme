@@ -240,9 +240,9 @@
           "settings": {
             "image": "shopify://shop_images/dr-sophie.jpg",
             "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "Dr. Laurence",
-            "content": "<h5>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</h5>",
+            "subheading": "Dr. Sophie Renard à propos des Gouttes Autobronzantes Radiance+",
+            "title": "",
+            "content": "<p>« Avec le temps, le teint peut perdre son éclat naturel, devenant plus terne et irrégulier. Les Gouttes Autobronzantes Radiance+ d’Harvey Ross offrent une solution sur-mesure pour raviver l’éclat du visage en toute simplicité. Leur formule concentrée permet un bronzage progressif et uniforme, tout en respectant l’équilibre de la peau. Quelques gouttes suffisent à révéler un teint hâlé, lumineux et naturellement ensoleillé, comme après un week-end au grand air. »</p>",
             "button_url": "",
             "button_text": ""
           }
@@ -491,8 +491,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.</p>"
+            "title": "",
+            "content": ""
           }
         }
       },
@@ -522,8 +522,8 @@
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
+            "subheading": "",
+            "title": "",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",
