@@ -15,7 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/model-3545426_1920.jpg",
+            "image": "shopify://shop_images/Group_170_4_3465cac6-cad7-41a9-9796-d8f69aa5a9be.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -48,76 +48,9 @@
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
-    },
-    "featured_product_kpmYb6": {
-      "type": "featured-product",
-      "blocks": {
-        "title_iBB3Ce": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges_reGEyP": {
-          "type": "badges",
-          "settings": {}
-        },
-        "rating_HzLPhn": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator_pUm9xf": {
-          "type": "separator",
-          "settings": {}
-        },
-        "buy_buttons_KCk3jr": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "#c9a072",
-            "atc_button_text_color": "#ffffff",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "pickup_availability_9Lbexk": {
-          "type": "pickup_availability",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title_iBB3Ce",
-        "badges_reGEyP",
-        "rating_HzLPhn",
-        "separator_pUm9xf",
-        "buy_buttons_KCk3jr",
-        "pickup_availability_9Lbexk"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "full_width": true,
-        "product": "self-tanning-drops-enhance-skin-melanin-liquid-bronzer-natural-tanner-for-body-face-preventing-sunburn-sunless-tanning-products",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
     }
   },
   "order": [
-    "slideshow",
-    "featured_product_kpmYb6"
+    "slideshow"
   ]
 }
