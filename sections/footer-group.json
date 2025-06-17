@@ -86,6 +86,84 @@
         "overlay_opacity": 0
       }
     },
+    "image_link_blocks_YbUwkP": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_UfVTwe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/272469046_140953528373621_992082408942069320_n.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_ELqzzP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-03-10_at_15.32.40_da11e69a-ffea-4360-a431-e562756d8537.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_VVh7FJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2025-06-05_a_11.30.25.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_hVyCij": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/cgi-bin_mmwebwx-bin_webwxgetmsgimg___MsgID_723492972521008406_skey_crypt_1eabeaae_3deb0fab5ab215daeeda30b926127f27_mmweb_appid_wx_webfilehelper_7cffc70f-534d-4ad3-bae0-3bee48d59b.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_UfVTwe",
+        "item_ELqzzP",
+        "item_VVh7FJ",
+        "item_hVyCij"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": true,
+        "block_size": "large",
+        "subheading": "",
+        "title": "",
+        "content": "<h4>Elles en parlent le mieux</h4>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "video_MaYn9q": {
       "type": "video",
       "name": "Video",
@@ -212,6 +290,333 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "multiple_images_with_text_8TXaNr": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_LfUG8a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/dr-sophie.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "Dr. Charlotte Tourmente (Sénologue)",
+            "title": "",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_C8pXp8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/raw_3.png",
+            "image_rotation_degrees": 1.5,
+            "subheading": "Stéphanie Zwicky (Styliste lingerie & conseillère)",
+            "title": "",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_LfUG8a",
+        "item_C8pXp8"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "images_with_text_scrolling_CqEM9K": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_FgxFtk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/40a55844c307429ba4cce2afe84d73a6-ezgif.com-optimize_1_1_1d492f03-3d9e-495c-a183-ff57f8a5dcfb.gif",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_FgxFtk"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "images_with_text_scrolling_QFNgfn": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_V6TD7W": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Nevtelenterv_43_c018558f-363b-48a5-8758-f939db2d96f9.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_V6TD7W"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "scrolling_text_yYdtVC": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "QUALITÉ SUPÉRIEURE",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#e897af",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "text_with_icons_AKdTk8": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_FA4tyU": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Group_61_2_1_1.webp",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": ""
+          }
+        },
+        "item_6kUA4n": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Group_61_1_1_1.webp",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": ""
+          }
+        },
+        "item_rrwDHb": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Group_171_1.webp",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": ""
+          }
+        },
+        "item_Bkk3fb": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Group_61_1_1.webp",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_FA4tyU",
+        "item_6kUA4n",
+        "item_rrwDHb",
+        "item_Bkk3fb"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h1",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "scrolling_text_nUg3LE": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "CONFORT TOUTE LA JOURNÉE",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#e897af",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "tabs_WPixpw": {
+      "type": "tabs",
+      "blocks": {
+        "tab_Y9QbdB": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 1",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>",
+            "page": ""
+          }
+        },
+        "tab_TG9ABV": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_XcqMad": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_Y9QbdB",
+        "tab_TG9ABV",
+        "tab_XcqMad"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "Subheading",
+        "title": "Heading",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "testimonials_GEbheU": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_GjLJzU": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8148_1.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_r88ExG": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-03-10_at_15.34.30_4f262f9c-fd78-4326-bbc2-228dad5b1e5c.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_KdGVAF": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-03-10_at_15.33.58_a8a85714-ce58-4079-ab39-b00977314efe.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_GjLJzU",
+        "testimonial_r88ExG",
+        "testimonial_KdGVAF"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "",
+        "content": "<h4>Découvrez ce que disent nos clients :</h4>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
       }
     },
     "faq_UBRrV6": {
@@ -387,8 +792,17 @@
   "order": [
     "logo_list_ktAeDM",
     "image_with_text_overlay_HiyzPJ",
+    "image_link_blocks_YbUwkP",
     "video_MaYn9q",
     "featured_product_MLYwEx",
+    "multiple_images_with_text_8TXaNr",
+    "images_with_text_scrolling_CqEM9K",
+    "images_with_text_scrolling_QFNgfn",
+    "scrolling_text_yYdtVC",
+    "text_with_icons_AKdTk8",
+    "scrolling_text_nUg3LE",
+    "tabs_WPixpw",
+    "testimonials_GEbheU",
     "faq_UBRrV6",
     "text-with-icons",
     "footer"
