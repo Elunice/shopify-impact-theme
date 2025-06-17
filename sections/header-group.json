@@ -17,17 +17,25 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "DERNIER JOUR ! 1 Acheté = 1 OFFERT",
+            "url": ""
+          }
+        },
+        "message_E9W3hp": {
+          "type": "message",
+          "settings": {
+            "text": "✅ Résultats garantis ou remboursé sous 30 jours ✅",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_E9W3hp"
       ],
       "settings": {
         "enable_sticky": false,
-        "text_size": "text-xs",
+        "text_size": "text-base",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#e897af",
