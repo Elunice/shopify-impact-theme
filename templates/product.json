@@ -68,46 +68,159 @@
         "logo_item_border": ""
       }
     },
-    "slideshow_Xcwy3f": {
-      "type": "slideshow",
+    "image_with_text_overlay_R6d98F": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/4_benefices_d64e7713-5ccd-40cc-924a-41155734bfd6.png",
+        "mobile_image": "shopify://shop_images/4_benefices_d64e7713-5ccd-40cc-924a-41155734bfd6.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "featured_product_frGQWD": {
+      "type": "featured-product",
       "blocks": {
-        "image_3y3Hwg": {
-          "type": "image",
+        "liquid_tAEVPB": {
+          "type": "liquid",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_Template_section_benefice_4.png",
-            "mobile_image": "shopify://shop_images/Copie_de_Template_section_benefice_4.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\"></span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 80px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555; font-weight: bold;\">4.9/5 Excellent 6200+ Avis</span>\n    </a>\n</body>\n</html>"
+          }
+        },
+        "title_wtXPtW": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "separator_eDW3MV": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_VDnDey": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "buy_buttons_T9kWCL": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#e897af",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_HeTLVK": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Logos de Paiement</title>\n  <style>\n    .icon-container {\n      display: flex;\n      gap: 10px;\n      align-items: center;\n      justify-content: center;\n      margin-top: 30px;\n    }\n\n    .icon {\n      width: 40px;\n      height: auto;\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"icon-container\">\n    <!-- Apple Pay -->\n    <img class=\"icon\" src=\"https://cdn.shopify.com/s/files/1/0747/1749/5526/files/Apple_Pay-Logo.wine.png?v=1746126288\" alt=\"Apple Pay\">\n\n    <!-- Google Pay -->\n    <img class=\"icon\" src=\"https://cdn.shopify.com/s/files/1/0747/1749/5526/files/images.png?v=1746126288\" alt=\"Google Pay\">\n\n    <!-- PayPal -->\n    <img class=\"icon\" src=\"https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg\" alt=\"PayPal\">\n\n    <!-- Mastercard -->\n    <img class=\"icon\" src=\"https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png\" alt=\"Mastercard\">\n\n    <!-- Visa -->\n    <img class=\"icon\" src=\"https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png\" alt=\"Visa\">\n\n    <!-- American Express -->\n    <img class=\"icon\" src=\"https://cdn.shopify.com/s/files/1/0747/1749/5526/files/hd-amex-american-express-logo-png-701751694708970jttzjjyo6e.png?v=1746126288\" alt=\"American Express\">\n  </div>"
+          }
+        },
+        "liquid_e9UTX4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n        .delivery-card {\n            background-color: #e897af;\n            border-radius: 12px;\n            padding: 12px 16px;\n            display: flex;\n            align-items: center;\n            justify-content: space-between;\n            max-width: 400px;\n            width: 100%;\n            margin: 20px auto;\n            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n            box-sizing: border-box;\n        }\n        \n        @media (max-width: 480px) {\n            .delivery-card {\n                margin: 10px;\n                padding: 10px 12px;\n                max-width: none;\n                width: calc(100% - 20px);\n            }\n        }\n        \n        .delivery-section {\n            display: flex;\n            flex-direction: column;\n            align-items: flex-start;\n        }\n        \n        .delivery-label {\n            font-size: 12px;\n            color: #374151;\n            margin-bottom: 2px;\n            font-weight: 500;\n        }\n        \n        .delivery-value {\n            font-size: 14px;\n            color: #1f2937;\n            font-weight: 600;\n            white-space: nowrap;\n        }\n        \n        @media (max-width: 480px) {\n            .delivery-label {\n                font-size: 11px;\n            }\n            .delivery-value {\n                font-size: 13px;\n            }\n        }\n        \n        .delivery-icon {\n            display: flex;\n            align-items: center;\n            margin: 0 12px;\n            flex-shrink: 0;\n        }\n        \n        .arrow {\n            width: 20px;\n            height: 20px;\n            color: #6b7280;\n        }\n        \n        .clock-icon, .calendar-icon {\n            width: 16px;\n            height: 16px;\n            color: #6b7280;\n            margin-right: 6px;\n            flex-shrink: 0;\n        }\n        \n        @media (max-width: 480px) {\n            .delivery-icon {\n                margin: 0 8px;\n            }\n            .arrow {\n                width: 16px;\n                height: 16px;\n            }\n            .clock-icon, .calendar-icon {\n                width: 14px;\n                height: 14px;\n                margin-right: 4px;\n            }\n        }\n        \n        .left-section, .right-section {\n            display: flex;\n            align-items: center;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"delivery-card\">\n        <div class=\"left-section\">\n            <svg class=\"clock-icon\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>\n                <polyline points=\"12,6 12,12 16,14\"></polyline>\n            </svg>\n            <div class=\"delivery-section\">\n                <div class=\"delivery-label\">Commande</div>\n                <div class=\"delivery-value\">Aujourd'hui</div>\n            </div>\n        </div>\n        \n        <div class=\"delivery-icon\">\n            <svg class=\"arrow\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                <polyline points=\"12,5 19,12 12,19\"></polyline>\n            </svg>\n        </div>\n        \n        <div class=\"right-section\">\n            <svg class=\"calendar-icon\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"></rect>\n                <line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"></line>\n                <line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"></line>\n                <line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"></line>\n            </svg>\n            <div class=\"delivery-section\">\n                <div class=\"delivery-label\">Livraison</div>\n                <div class=\"delivery-value\">15-16 juin</div>\n            </div>\n        </div>\n    </div>\n</body>\n</html>"
+          }
+        },
+        "pickup_availability_i9iihy": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "collapsible_text_mnFkN7": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Seul notre site garantit l’authenticité",
+            "content": "<p>Nos produits sont uniquement disponibles sur notre site officiel. Toute vente sur des plateformes tierces, comme Amazon, concerne des contrefaçons de mauvaise qualité. Pour garantir l'authenticité et la qualité, achetez exclusivement sur notre site. Nous déclinons toute responsabilité pour les produits achetés ailleurs.</p>"
+          }
+        },
+        "collapsible_text_CWXTr3": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "En combien de temps voit-on les effets ?",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_TGm3JX": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Est-ce que ce soutien-gorge fera réellement paraître ma poitrine plus petite ?",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_YJGzgL": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Comment fonctionnent exactement les soutiens-gorge minimiseurs ?",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_Kdtb6j": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "J’ai du mal à faire les courses à cause de ma forte poitrine. Est-ce que cela va m’aider ?",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_GC3Q7J": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Comment en prendre soin ?",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_t3JAnQ": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Suis-je soumis à des frais, tarifs ou charges supplémentaires ?",
+            "content": "<p>Share some content to your customers about your products.</p>"
           }
         }
       },
       "block_order": [
-        "image_3y3Hwg"
+        "liquid_tAEVPB",
+        "title_wtXPtW",
+        "separator_eDW3MV",
+        "description_VDnDey",
+        "buy_buttons_T9kWCL",
+        "liquid_HeTLVK",
+        "liquid_e9UTX4",
+        "pickup_availability_i9iihy",
+        "collapsible_text_mnFkN7",
+        "collapsible_text_CWXTr3",
+        "collapsible_text_TGm3JX",
+        "collapsible_text_YJGzgL",
+        "collapsible_text_Kdtb6j",
+        "collapsible_text_GC3Q7J",
+        "collapsible_text_t3JAnQ"
       ],
-      "name": "Slideshow",
+      "name": "Featured product",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#F2F2F2",
-        "background_gradient": ""
+        "product": "top-up-minimizer-bra-thin-anti-sagging-unconstrained-gathered-lace-sexy-plus-size-bra-swd9042-1",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
       }
     },
     "main": {
@@ -192,6 +305,7 @@
         "collapsible_text_epy8tj",
         "collapsible_text_YRLM4n"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
@@ -209,456 +323,12 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "You may also like",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "multiple_images_with_text_7Dq6X7": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_ymdCkz": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/dr-sophie.jpg",
-            "image_rotation_degrees": 1.5,
-            "subheading": "Dr. Sophie Renard à propos des Gouttes Autobronzantes Radiance+",
-            "title": "",
-            "content": "<p>« Avec le temps, le teint peut perdre son éclat naturel, devenant plus terne et irrégulier. Les Gouttes Autobronzantes Radiance+ d’Harvey Ross offrent une solution sur-mesure pour raviver l’éclat du visage en toute simplicité. Leur formule concentrée permet un bronzage progressif et uniforme, tout en respectant l’équilibre de la peau. Quelques gouttes suffisent à révéler un teint hâlé, lumineux et naturellement ensoleillé, comme après un week-end au grand air. »</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_ymdCkz"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "top",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "collection_list_TPGLDx": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_npdnW3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/14.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_mRMhQc": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/8_2.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_heRBQQ": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/13_9bb28ed5-4973-4f31-a1cc-73f8b901fa18.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_8zz4wD": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/12_0ba05fe6-b9f1-4090-9e29-2f4b2eacc596_1.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_WJ4EXh": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/10_2.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection_npdnW3",
-        "collection_mRMhQc",
-        "collection_heRBQQ",
-        "collection_8zz4wD",
-        "collection_WJ4EXh"
-      ],
-      "name": "Collection list",
-      "settings": {
-        "full_width": true,
-        "stack_collections": false,
-        "collections_per_row": 3,
-        "show_progress_bar": false,
-        "subheading": "",
-        "title": "",
-        "content": "<h4>Elles en parlent le mieux</h4>",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "video_6TL7za": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "lg",
-        "external_video_url": "",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "collection_list_tkBjKK": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_36nDtb": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/Extrait_de_Noyau_d_Argan.jpg",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 41
-          }
-        },
-        "collection_WBm4HC": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/Retinol.jpg",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_rVLBGt": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/Peptides.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection_36nDtb",
-        "collection_WBm4HC",
-        "collection_rVLBGt"
-      ],
-      "name": "Collection list",
-      "settings": {
-        "full_width": true,
-        "stack_collections": false,
-        "collections_per_row": 3,
-        "show_progress_bar": false,
-        "subheading": "",
-        "title": "",
-        "content": "<h4>Effacez les rides & Restaurez l’élasticité de votre peau</h4>",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "before_after_image_z7yDEx": {
-      "type": "before-after-image",
-      "name": "Before/after image",
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "before_image": "shopify://shop_images/gempages_554359021138608948-d4bdd64f-9a29-4c2b-bf11-872af77e58bc.jpg",
-        "after_image": "shopify://shop_images/gempages_554359021138608948-4f730d79-10ab-42bb-b955-9485463776bb_1.jpg",
-        "expand_image": false,
-        "text_position": "start",
-        "before_after_text_position": "top",
-        "before_text": "Avant",
-        "after_text": "Après",
-        "drag_initial_position": 27,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
-    "text_with_icons_w4rh7C": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_Lr9Rm6": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/Untitled_design_10_1.png",
-            "mobile_icon_width": 120,
-            "icon_width": 120,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "",
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_Lr9Rm6"
-      ],
-      "name": "Text with icons",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "slideshow_9KcdTP": {
-      "type": "slideshow",
-      "blocks": {
-        "image_KtpPzT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_19_mai_2025_02_20_55.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_KtpPzT"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "sm",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#F2F2F2",
-        "background_gradient": ""
-      }
-    },
-    "faq_Gfyckh": {
-      "type": "faq",
-      "blocks": {
-        "item_L46mqW": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
-          }
-        },
-        "item_rYKtJr": {
-          "type": "item",
-          "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
-          }
-        },
-        "item_HHzW4c": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
-          }
-        },
-        "item_nykV9G": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
-          }
-        },
-        "item_yJFf78": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
-          }
-        },
-        "item_fmPBMd": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
-          }
-        },
-        "item_3CqPrU": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
-          }
-        },
-        "item_ypqPTc": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_L46mqW",
-        "item_rYKtJr",
-        "item_HHzW4c",
-        "item_nykV9G",
-        "item_yJFf78",
-        "item_fmPBMd",
-        "item_3CqPrU",
-        "item_ypqPTc"
-      ],
-      "name": "FAQ",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "#ffffff",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
     }
   },
   "order": [
     "logo_list_BErLBQ",
-    "slideshow_Xcwy3f",
-    "main",
-    "related-products",
-    "multiple_images_with_text_7Dq6X7",
-    "collection_list_TPGLDx",
-    "video_6TL7za",
-    "collection_list_tkBjKK",
-    "before_after_image_z7yDEx",
-    "text_with_icons_w4rh7C",
-    "slideshow_9KcdTP",
-    "faq_Gfyckh"
+    "image_with_text_overlay_R6d98F",
+    "featured_product_frGQWD",
+    "main"
   ]
 }
