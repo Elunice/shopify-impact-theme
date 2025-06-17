@@ -233,28 +233,49 @@
         "collapsible_text_JGKV9h": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>"
-          }
-        },
-        "collapsible_text_dmYMTx": {
-          "type": "collapsible_text",
-          "settings": {
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>"
+            "title": "Seul notre site garantit l’authenticité",
+            "content": "<p>Nos produits sont uniquement disponibles sur notre site officiel. Toute vente sur des plateformes tierces, comme Amazon, concerne des contrefaçons de mauvaise qualité. Pour garantir l'authenticité et la qualité, achetez exclusivement sur notre site. Nous déclinons toute responsabilité pour les produits achetés ailleurs.</p>"
           }
         },
         "collapsible_text_RTzLPx": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Title",
+            "title": "En combien de temps voit-on les effets ?",
             "content": "<p>Share some content to your customers about your products.</p>"
           }
         },
         "collapsible_text_fwXY7a": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Title",
+            "title": "Est-ce que ce soutien-gorge fera réellement paraître ma poitrine plus petite ?",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_tPVwMg": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Comment fonctionnent exactement les soutiens-gorge minimiseurs ?",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_4XjeMz": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "J’ai du mal à faire les courses à cause de ma forte poitrine. Est-ce que cela va m’aider ?",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_HeE4QA": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Comment en prendre soin ?",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_9aAbjY": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Suis-je soumis à des frais, tarifs ou charges supplémentaires ?",
             "content": "<p>Share some content to your customers about your products.</p>"
           }
         }
@@ -269,16 +290,19 @@
         "liquid_w9WKy8",
         "pickup_availability_WQ8pie",
         "collapsible_text_JGKV9h",
-        "collapsible_text_dmYMTx",
         "collapsible_text_RTzLPx",
-        "collapsible_text_fwXY7a"
+        "collapsible_text_fwXY7a",
+        "collapsible_text_tPVwMg",
+        "collapsible_text_4XjeMz",
+        "collapsible_text_HeE4QA",
+        "collapsible_text_9aAbjY"
       ],
       "name": "Featured product",
       "settings": {
         "full_width": true,
         "product": "top-up-minimizer-bra-thin-anti-sagging-unconstrained-gathered-lace-sexy-plus-size-bra-swd9042-1",
         "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_layout": "grid_highlight",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": true,
@@ -302,7 +326,7 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
-            "content": "<h4>Dr. Charlotte Tourmente (Sénologue)<br/></h4><p>Les soutiens-gorge lourds peuvent tirer sur vos épaules et comprimer votre dos. Ce soutien-gorge est </p>",
+            "content": "<h5>« En tant que sénologue, je vois chaque jour des femmes sacrifier leur bien-être à cause de soutiens-gorge inadaptés.</h5><p>Avec Forme+, ce compromis douloureux n’existe plus. »<br/><br/><strong>— </strong><em><strong>Dr. Élise Martin, spécialiste de la santé mammaire (20 ans d’expérience)</strong></em></p>",
             "button_url": "",
             "button_text": ""
           }
@@ -314,7 +338,7 @@
             "image_rotation_degrees": 1.5,
             "subheading": "",
             "title": "",
-            "content": "<h4>Stéphanie Zwicky (Styliste lingerie & conseillère)<br/></h4><p><br/></p>",
+            "content": "<p>« En 15 ans d’habillage de stars et mannequins, un seul soutien-gorge a révolutionné ma vision de la silhouette féminine : Forme+. »<br/><br/><em><strong>— Camille Dubois, Styliste pour Vogue & Dior</strong></em></p>",
             "button_url": "",
             "button_text": ""
           }
@@ -546,35 +570,35 @@
         "item_3eiLbU": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
+            "title": "Ce soutien-gorge m'aidera-t-il à mieux me glisser sous les vêtements ?",
             "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
           }
         },
         "item_ptamhF": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
+            "title": "Est-ce qu'il y a un rembourrage ?",
             "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
           }
         },
         "item_nBd9Gw": {
           "type": "item",
           "settings": {
-            "title": "Question",
+            "title": "Est-ce que c'est fidèle à la taille ?",
             "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         },
         "item_YjjN6m": {
           "type": "item",
           "settings": {
-            "title": "Question",
+            "title": "Puis-je le porter toute la journée sans gêne ?",
             "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         },
         "item_y9AxbX": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
+            "title": "Est-ce que cela fonctionne pour les poitrines plus grandes ?",
             "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
           }
         }
