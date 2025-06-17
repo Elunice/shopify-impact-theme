@@ -300,9 +300,9 @@
           "settings": {
             "image": "shopify://shop_images/dr-sophie.jpg",
             "image_rotation_degrees": -2,
-            "subheading": "Dr. Charlotte Tourmente (Sénologue)",
+            "subheading": "",
             "title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "content": "<h4>Dr. Charlotte Tourmente (Sénologue)<br/></h4><p>Les soutiens-gorge lourds peuvent tirer sur vos épaules et comprimer votre dos. Ce soutien-gorge est </p>",
             "button_url": "",
             "button_text": ""
           }
@@ -310,11 +310,11 @@
         "item_C8pXp8": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/raw_3.png",
+            "image": "shopify://shop_images/styliste_redimensionnee_1000x737_74b6d981-1344-40fd-b17a-fefbb700a7da.png",
             "image_rotation_degrees": 1.5,
-            "subheading": "Stéphanie Zwicky (Styliste lingerie & conseillère)",
+            "subheading": "",
             "title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "content": "<h4>Stéphanie Zwicky (Styliste lingerie & conseillère)<br/></h4><p><br/></p>",
             "button_url": "",
             "button_text": ""
           }
@@ -345,8 +345,8 @@
             "image": "shopify://shop_images/40a55844c307429ba4cce2afe84d73a6-ezgif.com-optimize_1_1_1d492f03-3d9e-495c-a183-ff57f8a5dcfb.gif",
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "title": "",
+            "content": "<h2>Pas d'effet tente, plus de confiance</h2><p>Dites adieu aux soutiens-gorge qui serrent, enfoncent ou vous laissent une sensation d'inconfort. <strong>Ce soutien-gorge minimise délicatement la silhouette pour une silhouette naturelle et élégante,</strong> tout en vous offrant maintien et maintien tout au long de la journée. <strong>Léger et respirant, il reste confortable du matin au soir</strong> sans enfoncer vos épaules.<br/><br/>Doté de <strong>bretelles réglables et d'un dos en U</strong> , il offre un ajustement parfait. Fini l'inconfort, fini les ajustements difficiles : une confiance sans effort dans toutes vos tenues.</p>"
           }
         }
       },
@@ -357,7 +357,7 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "show_counter": true,
+        "show_counter": false,
         "desktop_image_effect": "reveal",
         "image_position": "end",
         "background": "",
@@ -376,8 +376,8 @@
             "image": "shopify://shop_images/Nevtelenterv_43_c018558f-363b-48a5-8758-f939db2d96f9.png",
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "title": "",
+            "content": "<h2>Adieu les regards indésirables à chaque fois que vous parlez.</h2><p>Les soutiens-gorge lourds peuvent tirer sur vos épaules et comprimer votre dos. Ce soutien-gorge est conçu pour soutenir et répartir le poids uniformément, soulageant instantanément les tensions, réduisant ainsi <strong>la taille du bonnet et offrant plus de confort.</strong><br/><br/>Sa <strong>conception légère et offrant un bon maintien améliore votre posture</strong> , vous permettant de vous tenir plus droit et de vous sentir mieux tout au long de la journée. Fini les courbatures en milieu de journée, fini la pression : un confort absolu et sans effort.</p>"
           }
         }
       },
@@ -388,7 +388,7 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "show_counter": true,
+        "show_counter": false,
         "desktop_image_effect": "reveal",
         "image_position": "start",
         "background": "",
@@ -398,22 +398,6 @@
         "heading_gradient": ""
       }
     },
-    "scrolling_text_yYdtVC": {
-      "type": "scrolling-text",
-      "name": "Scrolling text",
-      "settings": {
-        "full_width": true,
-        "text": "QUALITÉ SUPÉRIEURE",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 10,
-        "background": "#e897af",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
     "text_with_icons_AKdTk8": {
       "type": "text-with-icons",
       "blocks": {
@@ -421,56 +405,56 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/Group_61_2_1_1.webp",
+            "custom_icon": "shopify://shop_images/icons8-guarantee-100_6_1_cc617f61-3b6b-4cbf-9536-3f45b520063e.png",
             "mobile_icon_width": 24,
-            "icon_width": 48,
+            "icon_width": 68,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "",
-            "content": ""
+            "content": "<h4>Notre promesse</h4><p>Nous accordons une telle importance à l'expérience de nos clients que si vous n'aimez pas notre produit, vous pouvez simplement le retourner dans les 60 jours.</p>"
           }
         },
         "item_6kUA4n": {
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/Group_61_1_1_1.webp",
+            "custom_icon": "shopify://shop_images/feather_1_1_5480ea02-65e1-4767-b5a0-b13417e96caf.png",
             "mobile_icon_width": 24,
-            "icon_width": 48,
+            "icon_width": 68,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "",
-            "content": ""
+            "content": "<h4>Un soutien solide sans inconfort</h4><p>Fini les bretelles qui creusent ou les armatures douloureuses : <strong>ce soutien-gorge soulève et soutient tout en restant confortable toute la journée.</strong></p>"
           }
         },
         "item_rrwDHb": {
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/Group_171_1.webp",
+            "custom_icon": "shopify://shop_images/breast_1_1_7f6bd47f-4e8e-46bb-818e-e9cfe2929fc5.png",
             "mobile_icon_width": 24,
-            "icon_width": 48,
+            "icon_width": 68,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "",
-            "content": ""
+            "content": "<h4>Rend votre poitrine plus petite et plus lisse</h4><p>Conçu pour <strong>minimiser visiblement sans aplatir</strong> , ce soutien-gorge crée un look élégant et plus équilibré sous n'importe quelle tenue.</p>"
           }
         },
         "item_Bkk3fb": {
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/Group_61_1_1.webp",
+            "custom_icon": "shopify://shop_images/posture_1_1_2b2b508f-c41a-4b87-8d01-5e3a82135aa1.png",
             "mobile_icon_width": 24,
-            "icon_width": 48,
+            "icon_width": 68,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "",
-            "content": ""
+            "content": "<h4>Aide à la posture et aux douleurs aux épaules</h4><p>En répartissant uniformément le poids, <strong>il soulage la tension sur vos épaules et votre dos, améliorant ainsi la posture sans effort.</strong></p>"
           }
         }
       },
@@ -484,29 +468,13 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "title": "",
+        "title": "Pourquoi nous sommes les meilleurs...",
         "heading_tag": "h1",
         "text_alignment": "center",
         "icon_spacing": "small",
         "background": "#1a1a1a",
         "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "scrolling_text_nUg3LE": {
-      "type": "scrolling-text",
-      "name": "Scrolling text",
-      "settings": {
-        "full_width": true,
-        "text": "CONFORT TOUTE LA JOURNÉE",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 10,
-        "background": "#e897af",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
+        "text_color": "#ffffff"
       }
     },
     "testimonials_GEbheU": {
@@ -589,6 +557,20 @@
             "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
           }
         },
+        "item_nBd9Gw": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_YjjN6m": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
         "item_y9AxbX": {
           "type": "item",
           "settings": {
@@ -600,6 +582,8 @@
       "block_order": [
         "item_3eiLbU",
         "item_ptamhF",
+        "item_nBd9Gw",
+        "item_YjjN6m",
         "item_y9AxbX"
       ],
       "name": "FAQ",
@@ -607,21 +591,21 @@
         "full_width": true,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
+        "button_text_color": "#ffffff",
+        "accordion_background": "#ffffff",
         "accordion_text_color": ""
       }
     },
@@ -751,9 +735,7 @@
     "multiple_images_with_text_8TXaNr",
     "images_with_text_scrolling_CqEM9K",
     "images_with_text_scrolling_QFNgfn",
-    "scrolling_text_yYdtVC",
     "text_with_icons_AKdTk8",
-    "scrolling_text_nUg3LE",
     "testimonials_GEbheU",
     "faq_UBRrV6",
     "text-with-icons",
