@@ -43,6 +43,7 @@
     "cart_type": "popover",
     "cart_icon": "tote_bag",
     "cart_empty_button_link": "shopify://products/top-up-minimizer-bra-thin-anti-sagging-unconstrained-gathered-lace-sexy-plus-size-bra-swd9042-1",
+    "cart_show_free_shipping_threshold": false,
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [],
