@@ -100,6 +100,96 @@
         "overlay_opacity": 30
       }
     },
+    "featured_product_MLYwEx": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_EHKybW": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_NDmVEM": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_nxTNzm": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_A7kp88": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_rCktzi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_wwgJQP": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_mbnXiJ": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "quantity_selector_7w9jCJ": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_eEKxp3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_WQ8pie": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_EHKybW",
+        "title_NDmVEM",
+        "badges_nxTNzm",
+        "price_A7kp88",
+        "rating_rCktzi",
+        "separator_wwgJQP",
+        "description_mbnXiJ",
+        "quantity_selector_7w9jCJ",
+        "buy_buttons_eEKxp3",
+        "pickup_availability_WQ8pie"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "top-up-minimizer-bra-thin-anti-sagging-unconstrained-gathered-lace-sexy-plus-size-bra-swd9042-1",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
     "faq_UBRrV6": {
       "type": "faq",
       "blocks": {
@@ -274,6 +364,7 @@
     "logo_list_ktAeDM",
     "image_with_text_overlay_HiyzPJ",
     "video_MaYn9q",
+    "featured_product_MLYwEx",
     "faq_UBRrV6",
     "text-with-icons",
     "footer"
