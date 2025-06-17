@@ -567,6 +567,20 @@
     "faq_UBRrV6": {
       "type": "faq",
       "blocks": {
+        "item_gLThny": {
+          "type": "item",
+          "settings": {
+            "title": "Pourquoi acheter uniquement sur notre site officiel ?",
+            "content": "<p>Nos produits sont uniquement disponibles sur notre site officiel. Toute vente sur des plateformes tierces, comme Amazon, concerne des contrefaçons de mauvaise qualité. Pour garantir l'authenticité et la qualité, achetez exclusivement sur notre site. Nous déclinons toute responsabilité pour les produits achetés ailleurs.</p>"
+          }
+        },
+        "item_T3w8jD": {
+          "type": "item",
+          "settings": {
+            "title": "Expédiez-vous à l'étranger",
+            "content": "<p>Oui, nous expédions à l'étranger. Vous recevrez l'état d'avancement de votre commande par e-mail et la livraison se fera sous 5 à 7 jours ouvrés.</p>"
+          }
+        },
         "item_3eiLbU": {
           "type": "item",
           "settings": {
@@ -604,6 +618,8 @@
         }
       },
       "block_order": [
+        "item_gLThny",
+        "item_T3w8jD",
         "item_3eiLbU",
         "item_ptamhF",
         "item_nBd9Gw",
@@ -644,7 +660,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "#ffffff",
-            "icon_color": "",
+            "icon_color": "#e897af",
             "title": "Livraison gratuite",
             "content": ""
           }
@@ -657,7 +673,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "",
+            "icon_color": "#e897af",
             "title": "Service client",
             "content": ""
           }
@@ -670,7 +686,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "",
+            "icon_color": "#e897af",
             "title": "Satisfait ou remboursé",
             "content": ""
           }
@@ -683,7 +699,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#1a1a1a",
+            "icon_color": "#e897af",
             "title": "Paiement sécurisé",
             "content": ""
           }
@@ -731,7 +747,7 @@
           "settings": {
             "title": "Contact",
             "content": "<p><strong>E-mail: contact@hilabelle.com</strong></p><p>Lundi - Vendredi 9h - 18h</p><p>Samedi & Dimanche : 10h - 17h</p>",
-            "enable_follow_on_shop": true
+            "enable_follow_on_shop": false
           }
         }
       },
