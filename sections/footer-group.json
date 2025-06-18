@@ -197,12 +197,6 @@
           "type": "separator",
           "settings": {}
         },
-        "text_pM49eX": {
-          "type": "text",
-          "settings": {
-            "text": "<p>🍒 Rend votre poitrine plus petite et galbée<br/>👙 Soutien couvrant complet sans inconfort<br/>🧘‍♀️ Fini les regards effrayants sur vos seins<br/>🌸 Votre soutien-gorge parfait pour les grandes tailles de bonnet</p>"
-          }
-        },
         "description_mbnXiJ": {
           "type": "description",
           "settings": {
@@ -308,7 +302,6 @@
         "liquid_RMmjLY",
         "title_NDmVEM",
         "separator_wwgJQP",
-        "text_pM49eX",
         "description_mbnXiJ",
         "button_byHYU6",
         "kaching_bundles_app_block_TQPr4L",
@@ -341,37 +334,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "images_with_text_scrolling_yqrnwd": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_hExwLh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/40a55844c307429ba4cce2afe84d73a6-ezgif.com-optimize_1_1_1d492f03-3d9e-495c-a183-ff57f8a5dcfb.gif",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<h2>Pas d'effet tente, plus de confiance</h2><p>Dites adieu aux soutiens-gorge qui serrent, enfoncent ou vous laissent une sensation d'inconfort. <strong>Ce soutien-gorge minimise délicatement la silhouette pour une silhouette naturelle et élégante,</strong> tout en vous offrant maintien et maintien tout au long de la journée. <strong>Léger et respirant, il reste confortable du matin au soir</strong> sans enfoncer vos épaules.<br/><br/>Doté de <strong>bretelles réglables et d'un dos en U</strong> , il offre un ajustement parfait. Fini l'inconfort, fini les ajustements difficiles : une confiance sans effort dans toutes vos tenues.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_hExwLh"
-      ],
-      "name": "Images and text scrolling",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "multiple_images_with_text_8TXaNr": {
@@ -830,7 +792,6 @@
     "image_link_blocks_YbUwkP",
     "video_MaYn9q",
     "featured_product_MLYwEx",
-    "images_with_text_scrolling_yqrnwd",
     "multiple_images_with_text_8TXaNr",
     "images_with_text_scrolling_CqEM9K",
     "images_with_text_scrolling_QFNgfn",
