@@ -86,82 +86,61 @@
         "overlay_opacity": 0
       }
     },
-    "image_link_blocks_YbUwkP": {
-      "type": "image-link-blocks",
+    "multiple_images_with_text_fTF7ax": {
+      "type": "multiple-images-with-text",
       "blocks": {
-        "item_UfVTwe": {
+        "item_ycCrHX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/480085216_948672510724549_4341116539041244747_n.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_wttryD": {
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/272469046_140953528373621_992082408942069320_n.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
           }
         },
-        "item_ELqzzP": {
+        "item_i3pTbc": {
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/WhatsApp_Image_2025-03-10_at_15.32.40_da11e69a-ffea-4360-a431-e562756d8537.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_VVh7FJ": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2025-06-05_a_11.30.25.png",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_hVyCij": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/cgi-bin_mmwebwx-bin_webwxgetmsgimg___MsgID_723492972521008406_skey_crypt_1eabeaae_3deb0fab5ab215daeeda30b926127f27_mmweb_appid_wx_webfilehelper_7cffc70f-534d-4ad3-bae0-3bee48d59b.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
           }
         }
       },
       "block_order": [
-        "item_UfVTwe",
-        "item_ELqzzP",
-        "item_VVh7FJ",
-        "item_hVyCij"
+        "item_ycCrHX",
+        "item_wttryD",
+        "item_i3pTbc"
       ],
-      "name": "Image link blocks",
+      "name": "Multiple images with text",
       "settings": {
-        "full_width": true,
-        "block_size": "large",
-        "subheading": "",
-        "title": "",
-        "content": "<h4>Elles en parlent le mieux</h4>",
-        "link_url": "",
-        "link_text": "",
+        "full_width": false,
+        "images_layout": "collage",
+        "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "video_MaYn9q": {
@@ -769,7 +748,7 @@
   "order": [
     "logo_list_ktAeDM",
     "image_with_text_overlay_HiyzPJ",
-    "image_link_blocks_YbUwkP",
+    "multiple_images_with_text_fTF7ax",
     "video_MaYn9q",
     "featured_product_MLYwEx",
     "multiple_images_with_text_8TXaNr",
