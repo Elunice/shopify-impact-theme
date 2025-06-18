@@ -115,6 +115,19 @@
             "heading_tag": "h3"
           }
         },
+        "offer_3FY8n7": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "icon_width": 24,
+            "title": "",
+            "content": "<p><strong>MISE À JOUR :</strong>En raison de la forte demande pendant nos soldes d'été, les stocks sont limités. Notre offre « 1 acheté, 1 offert » est valable dans la limite des stocks disponibles.</p>",
+            "background": "#ffecec",
+            "text_color": "#4d4e4d"
+          }
+        },
         "kaching_bundles_app_block_mBEnCz": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
@@ -207,6 +220,7 @@
       "block_order": [
         "liquid_RMmjLY",
         "title_NDmVEM",
+        "offer_3FY8n7",
         "kaching_bundles_app_block_mBEnCz",
         "buy_buttons_eEKxp3",
         "liquid_Vq9mTY",
