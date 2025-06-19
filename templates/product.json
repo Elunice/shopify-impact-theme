@@ -370,7 +370,7 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
-            "content": "<h5>« En tant que sénologue, je vois chaque jour des femmes sacrifier leur bien-être à cause de soutiens-gorge inadaptés.</h5><p>Avec Forme+, ce compromis douloureux n’existe plus. »<br/><br/><strong>— </strong><em><strong>Dr. Élise Martin, spécialiste de la santé mammaire (20 ans d’expérience)</strong></em></p>",
+            "content": "<h5>« En tant que sénologue, je vois chaque jour des femmes sacrifier leur bien-être à cause de soutiens-gorge inadaptés.</h5><p>Avec Forme+, ce compromis douloureux n’existe plus. »<br/><br/><strong>— </strong><em><strong>Dr. Élise Martin, spécialiste de la santé mammaire (12 ans d’expérience)</strong></em></p>",
             "button_url": "",
             "button_text": ""
           }
@@ -424,7 +424,7 @@
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "show_counter": false,
         "desktop_image_effect": "reveal",
         "image_position": "end",
@@ -455,7 +455,7 @@
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "show_counter": false,
         "desktop_image_effect": "reveal",
         "image_position": "start",
