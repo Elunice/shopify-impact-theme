@@ -197,7 +197,7 @@
         "external_video_url": "",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 14
       }
     },
     "featured_product_DaXR64": {
@@ -378,11 +378,11 @@
         "item_aHPftX": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/styliste_redimensionnee_1000x737_74b6d981-1344-40fd-b17a-fefbb700a7da.png",
+            "image": "shopify://shop_images/Design_sans_titre_97_8140a66f-7a26-44bc-8ba5-9a97bbc05801.png",
             "image_rotation_degrees": 1.5,
             "subheading": "",
             "title": "",
-            "content": "<p>« En 15 ans d’habillage de stars et mannequins, un seul soutien-gorge a révolutionné ma vision de la silhouette féminine : Forme+. »<br/><br/><em><strong>— Camille Dubois, Styliste pour Vogue & Dior</strong></em></p>",
+            "content": "<p>« Aujourd’hui, le confort des mannequins est une priorité, contrairement à avant. Grâce à Forme+, les femmes défilent avec aisance et élégance, en toute tranquillité. »<br/><br/><em><strong>— Camille Dubois, Styliste pour Vogue & Dior</strong></em></p>",
             "button_url": "",
             "button_text": ""
           }
