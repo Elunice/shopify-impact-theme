@@ -23,7 +23,7 @@
             "title": "Marre d’être remarquée pour la mauvaise raison ? Soyez admirée pour votre grâce, pas votre poitrine.",
             "heading_tag": "h5",
             "button_text": "Achetez Maintenant",
-            "button_link": "shopify://products/minimzerbraform",
+            "button_link": "shopify://products/minimzer-bra-forme",
             "text_color": "#ffffff",
             "button_background": "#e897af",
             "button_text_color": "#ffffff",
@@ -270,7 +270,7 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "minimzerbraform",
+        "product": "minimzer-bra-forme",
         "desktop_media_width": 55,
         "desktop_media_layout": "grid_highlight",
         "mobile_media_size": "expanded",

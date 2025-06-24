@@ -331,7 +331,7 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "minimzerbraform",
+        "product": "minimzer-bra-forme",
         "desktop_media_width": 50,
         "desktop_media_layout": "grid_highlight",
         "mobile_media_size": "expanded",
