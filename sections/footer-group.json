@@ -23,7 +23,7 @@
             "icon_background_type": "none",
             "icon_background": "#ffffff",
             "icon_color": "#e897af",
-            "title": "Livraison gratuite",
+            "title": "Free Shipping",
             "content": ""
           }
         },
@@ -36,7 +36,7 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "#e897af",
-            "title": "Service client",
+            "title": "Customer Service",
             "content": ""
           }
         },
@@ -49,7 +49,7 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "#e897af",
-            "title": "Satisfait ou remboursé",
+            "title": "Money-Back Guarantee",
             "content": ""
           }
         },
@@ -62,7 +62,7 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "#e897af",
-            "title": "Paiement sécurisé",
+            "title": "Secure Payment",
             "content": ""
           }
         }
@@ -93,14 +93,14 @@
           "settings": {
             "image_width": 150,
             "heading_size": "h3",
-            "title": "Inscrivez-vous à notre newsletter",
-            "content": "<p>Inscrivez-vous avec votre adresse email pour recevoir des actualités et des offres exclusives.</p>"
+            "title": "Join our newsletter",
+            "content": "<p>Join our mailing list to get the latest updates and exclusive deals.</p>"
           }
         },
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "main-menu",
             "show_menu_title": true
           }
         },
@@ -108,7 +108,7 @@
           "type": "text",
           "settings": {
             "title": "Contact",
-            "content": "<p><strong>E-mail: contact@hilabelle.com</strong></p><p>Lundi - Vendredi 9h - 18h</p><p>Samedi & Dimanche : 10h - 17h</p>",
+            "content": "<p><strong>E-mail: contact@hilabelle.com</strong></p><p><strong>Monday – Friday: 9 AM – 6 PM<br/><br/>Saturday & Sunday: 10 AM – 5 PM</strong></p>",
             "enable_follow_on_shop": false
           }
         }
