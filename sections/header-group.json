@@ -17,14 +17,14 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "DERNIER JOUR ! 1 Acheté = 1 OFFERT",
+            "text": "LAST DAY! Buy 1 = Get 1 FREE",
             "url": ""
           }
         },
         "message_E9W3hp": {
           "type": "message",
           "settings": {
-            "text": "✅ Résultats garantis ou remboursé sous 30 jours ✅",
+            "text": "✅ 30-Day Money-Back Guarantee – Results or Your Money Back ✅",
             "url": ""
           }
         }
