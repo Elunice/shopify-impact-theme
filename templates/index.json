@@ -220,25 +220,18 @@
             "content": ""
           }
         },
-        "collapsible_text_8DCgTT": {
-          "type": "collapsible_text",
-          "settings": {
-            "title": "J’ai du mal à faire les courses à cause de ma forte poitrine. Est-ce que cela va m’aider ?",
-            "content": "<p>Share some content to your customers about your products.</p>"
-          }
-        },
         "collapsible_text_AA4JG3": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Comment en prendre soin ?",
-            "content": "<p>Share some content to your customers about your products.</p>"
+            "title": "Any care instructions I should follow?",
+            "content": ""
           }
         },
         "collapsible_text_Vmwd4z": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Suis-je soumis à des frais, tarifs ou charges supplémentaires ?",
-            "content": "<p>Share some content to your customers about your products.</p>"
+            "title": "Am I subject to any additional fees, charges, or tariffs?",
+            "content": ""
           }
         }
       },
@@ -255,7 +248,6 @@
         "collapsible_text_d4w9xr",
         "collapsible_text_dPN4kn",
         "collapsible_text_64QYjy",
-        "collapsible_text_8DCgTT",
         "collapsible_text_AA4JG3",
         "collapsible_text_Vmwd4z"
       ],
