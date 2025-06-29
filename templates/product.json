@@ -252,10 +252,6 @@
             "heading_tag": "h4"
           }
         },
-        "infinite_options_app_block_7YYfiL": {
-          "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
-          "settings": {}
-        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -319,7 +315,6 @@
       },
       "block_order": [
         "title",
-        "infinite_options_app_block_7YYfiL",
         "rating",
         "payment_terms",
         "separator",
