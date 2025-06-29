@@ -311,6 +311,10 @@
             "title": "Retours & remboursements",
             "content": "<p>Share some content to your customers about your products.</p>"
           }
+        },
+        "infinite_options_app_block_7YYfiL": {
+          "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
+          "settings": {}
         }
       },
       "block_order": [
@@ -323,7 +327,8 @@
         "collapsible_text_QWYf9J",
         "collapsible_text_EDhBjN",
         "collapsible_text_epy8tj",
-        "collapsible_text_YRLM4n"
+        "collapsible_text_YRLM4n",
+        "infinite_options_app_block_7YYfiL"
       ],
       "disabled": true,
       "settings": {
