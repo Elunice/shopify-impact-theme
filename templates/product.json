@@ -534,6 +534,69 @@
         "text_color": "#ffffff"
       }
     },
+    "testimonials_UiEgHR": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_XJ3mEC": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2025-05-06_a_21.05.20.png",
+            "round_avatar": true,
+            "show_rating": false,
+            "rating": 4,
+            "author": "Olivia S.",
+            "title": "Actually feels good to wear",
+            "content": "<p>No digging, no sweating, no constant adjusting. It’s the first bra I forget I’m even wearing.</p>"
+          }
+        },
+        "testimonial_VVCj9g": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/480085216_948672510724549_4341116539041244747_n.webp",
+            "round_avatar": true,
+            "show_rating": false,
+            "rating": 5,
+            "author": "Charlotte U.",
+            "title": "Worth every penny",
+            "content": "<p>I didn’t expect much, but it’s honestly the best fit I’ve had. Comfortable, flattering, and perfect even in summer heat.</p>"
+          }
+        },
+        "testimonial_JxDBwH": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/272469046_140953528373621_992082408942069320_n_1.png",
+            "round_avatar": true,
+            "show_rating": false,
+            "rating": 4,
+            "author": "Amelia A.",
+            "title": "I finally feel good in my clothes",
+            "content": "<p>This bra smooths everything without flattening me. I feel confident, supported, and free. Can’t wear anything else now.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_XJ3mEC",
+        "testimonial_VVCj9g",
+        "testimonial_JxDBwH"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "",
+        "content": "<h4>Elles en parlent le mieux</h4>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
     "faq_8nNfdK": {
       "type": "faq",
       "blocks": {
@@ -631,6 +694,7 @@
     "images_with_text_scrolling_E9tdMi",
     "images_with_text_scrolling_gf6PWR",
     "text_with_icons_U4tQBL",
+    "testimonials_UiEgHR",
     "faq_8nNfdK"
   ]
 }
