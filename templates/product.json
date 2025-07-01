@@ -96,7 +96,7 @@
         "external_video_url": "",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 17
       }
     },
     "featured_product_kz4tjG": {
@@ -623,11 +623,11 @@
   "order": [
     "logo_list_3qey9k",
     "image_with_text_overlay_azWahJ",
-    "video_jirRhL",
     "featured_product_kz4tjG",
     "custom_liquid_GKQ7nL",
     "main",
     "multiple_images_with_text_Q9RyED",
+    "video_jirRhL",
     "images_with_text_scrolling_E9tdMi",
     "images_with_text_scrolling_gf6PWR",
     "text_with_icons_U4tQBL",
