@@ -113,6 +113,14 @@
             "waitForElementDelay": 5
           }
         },
+        "esc_size_charts_app_block_zgmMJa": {
+          "type": "shopify://apps/esc-size-charts/blocks/app-block/daa9a1f8-04ef-4369-ae22-966a9c435d5f",
+          "settings": {
+            "widget_type": "link",
+            "force_background": false,
+            "btn_text": "Size Guide"
+          }
+        },
         "kaching_bundles_app_block_4dLzxN": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
@@ -193,6 +201,7 @@
         "title_Cc49GW",
         "liquid_U3XLdn",
         "kiwi_size_chart_recommender_kiwi_sizing_4gbWGi",
+        "esc_size_charts_app_block_zgmMJa",
         "kaching_bundles_app_block_4dLzxN",
         "buy_buttons_6xiDPr",
         "liquid_QBQFVG",
