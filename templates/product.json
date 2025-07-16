@@ -84,42 +84,47 @@
         "overlay_opacity": 0
       }
     },
-    "featured_product_kz4tjG": {
+    "featured_product_9pXL79": {
       "type": "featured-product",
       "blocks": {
-        "liquid_Ej6Qc9": {
+        "liquid_rYVbLd": {
           "type": "liquid",
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\"></span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 80px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555; font-weight: bold;\">4.9/5 Excellent 6200+ Reviews</span>\n    </a>\n</body>\n</html>"
           }
         },
-        "title_Cc49GW": {
+        "title_arkNA9": {
           "type": "title",
           "settings": {
             "heading_tag": "h3"
           }
         },
-        "liquid_U3XLdn": {
+        "offer_jrwdWJ": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "icon_width": 20,
+            "title": "",
+            "content": "<p><strong>UPDATE : </strong>Due to high demand during our Special Deals Sale, stock is limited. Our buy 1, get 1 free offer is valid while stock lasts.</p>",
+            "background": "#fee5e5",
+            "text_color": "#413f3f"
+          }
+        },
+        "liquid_wGQ7kY": {
           "type": "liquid",
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n        .top-selling-badge {\n            display: flex;\n            align-items: center;\n            padding: 5px 10px;\n            border-radius: 8px;\n            font-family: Arial, sans-serif;\n            font-size: 12px;\n            color: #333;\n            background-color: #f3e5ff; /* Default background color */\n            height: 30px; /* Adjust height to fit content */\n        }\n\n        .top-selling-badge .badge-content {\n            display: none;\n            align-items: center;\n        }\n\n        .top-selling-badge .badge-content.active {\n            display: flex;\n        }\n\n        .badge-content svg {\n            margin-right: 8px;\n            width: 16px; /* Set icon size */\n            height: 16px; /* Set icon size */\n        }\n\n        .badge-content#text2 {\n            background-color: #ffe6e6; /* Very light red background for urgency */\n            color: #b30000; /* Darker red text color */\n        }\n    </style>\n    <title>Top Selling Product</title>\n</head>\n<body>\n    <div class=\"top-selling-badge\">\n        <div id=\"text1\" class=\"badge-content active\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">\n                <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.89 5.82 22 7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n            </svg>\n            <span>Our #1 Best-Selling Lingerie</span>\n        </div>\n        <div id=\"text2\" class=\"badge-content\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">\n                <path d=\"M1 12a11 11 0 1 0 22 0 11 11 0 1 0-22 0zm11-8a1 1 0 0 1 1 1v6.586l4.293 4.293a1 1 0 0 1-1.414 1.414l-5.293-5.293a1 1 0 0 1-.293-.707V5a1 1 0 0 1 1-1z\"/>\n            </svg>\n            <span>Hurry! Limited stock available</span>\n        </div>\n    </div>\n\n    <script>\n        let currentText = 1;\n        setInterval(() => {\n            const text1 = document.getElementById('text1');\n            const text2 = document.getElementById('text2');\n\n            if (currentText === 1) {\n                text1.classList.remove('active');\n                text2.classList.add('active');\n                document.querySelector('.top-selling-badge').style.backgroundColor = '#ffe6e6'; // Change background color\n            } else {\n                text2.classList.remove('active');\n                text1.classList.add('active');\n                document.querySelector('.top-selling-badge').style.backgroundColor = '#f3e5ff'; // Reset background color\n            }\n\n            currentText = currentText === 1 ? 2 : 1;\n        }, 3000); // Change every 3 seconds\n    </script>\n</body>\n</html>"
           }
         },
-        "kiwi_size_chart_recommender_kiwi_sizing_4gbWGi": {
-          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
-          "settings": {
-            "product": "{{section.settings.product}}",
-            "waitForElementSelector": "",
-            "waitForElementDelay": 4
-          }
-        },
-        "kaching_bundles_app_block_4dLzxN": {
+        "kaching_bundles_app_block_yq4UQh": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
             "product": "{{section.settings.product}}"
           }
         },
-        "buy_buttons_6xiDPr": {
+        "buy_buttons_C3RXcz": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": true,
@@ -130,57 +135,57 @@
             "payment_button_text_color": ""
           }
         },
-        "liquid_QBQFVG": {
+        "liquid_izPaUM": {
           "type": "liquid",
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Logos de Paiement</title>\n  <style>\n    .icon-container {\n      display: flex;\n      gap: 10px;\n      align-items: center;\n      justify-content: center;\n      margin-top: 30px;\n    }\n\n    .icon {\n      width: 40px;\n      height: auto;\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"icon-container\">\n    <!-- Apple Pay -->\n    <img class=\"icon\" src=\"https://cdn.shopify.com/s/files/1/0747/1749/5526/files/Apple_Pay-Logo.wine.png?v=1746126288\" alt=\"Apple Pay\">\n\n    <!-- Google Pay -->\n    <img class=\"icon\" src=\"https://cdn.shopify.com/s/files/1/0747/1749/5526/files/images.png?v=1746126288\" alt=\"Google Pay\">\n\n    <!-- PayPal -->\n    <img class=\"icon\" src=\"https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg\" alt=\"PayPal\">\n\n    <!-- Mastercard -->\n    <img class=\"icon\" src=\"https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png\" alt=\"Mastercard\">\n\n    <!-- Visa -->\n    <img class=\"icon\" src=\"https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png\" alt=\"Visa\">\n\n    <!-- American Express -->\n    <img class=\"icon\" src=\"https://cdn.shopify.com/s/files/1/0747/1749/5526/files/hd-amex-american-express-logo-png-701751694708970jttzjjyo6e.png?v=1746126288\" alt=\"American Express\">\n  </div>"
           }
         },
-        "liquid_dR7dAE": {
+        "liquid_zW4ktX": {
           "type": "liquid",
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Rating Widget</title>\n    <style>\n        body.uniqueBody_Ty83Kl {\n            font-family: Arial, sans-serif;\n        }\n\n        .ratingWidget_Wp76Nm {\n            display: flex;\n            align-items: center;\n        }\n\n        .profileImages_Qw59Br {\n            display: flex;\n            align-items: center;\n            margin-right: 20px;\n        }\n\n        .profileImages_Qw59Br img {\n            width: 30px;\n            height: 30px;\n            border-radius: 50%;\n            margin-right: -10px;\n            border: 2px solid white;\n        }\n\n        .nameAndVerified_Xz24Ft {\n            display: flex;\n            align-items: center;\n            margin-left: 15px;\n            font-size: 12px;\n        }\n\n        .purchaseText_Ym34Gh {\n            font-size: 12px;\n            margin-left: 5px;\n        }\n\n        #purchase-count {\n            font-weight: bold;\n            color: #000000; /* Siyah renk */\n            font-size: 14px; /* Biraz daha büyük */\n        }\n\n        @font-face {\n            font-family: \"CustomIcons\";\n            src: url(\"https://fonts.gstatic.com/s/materialsymbolsoutlined/v54/1f6ad2e0e7c7b3724793c4d8709a24a5.woff2\") format(\"woff2\");\n        }\n    </style>\n</head>\n<body class=\"uniqueBody_Ty83Kl\">\n\n    <div class=\"ratingWidget_Wp76Nm\">\n        <div class=\"profileImages_Qw59Br\">\n            <img src=\"https://www.hilaine.com/cdn/shop/files/WhatsApp_Image_2025-03-10_at_15.34.30.jpg?v=1749925939&width=550\" alt=\"Profile 1\">\n            <img src=\"https://randomuser.me/api/portraits/women/1.jpg\" alt=\"Profile 2\">\n            <img class=\"uniqueReviewImage_Tz89Lp\" src=\"https://www.hilaine.com/cdn/shop/files/WhatsApp_Image_2025-03-10_at_15.32.40_9295a6e3-c2c2-4797-9153-ad060d702c9c.jpg?v=1749925913&width=550\" alt=\"Profile 3\">\n            <div class=\"nameAndVerified_Xz24Ft\">\n                <span>Already <span id=\"purchase-count\">470</span> happy customers today</span>\n            </div>\n        </div>\n    </div>\n\n    <script>\n        let purchaseCount = 470;\n        const purchaseCountElement = document.getElementById(\"purchase-count\");\n\n        function updatePurchaseCount() {\n            // Her seferde 1, 2 veya bazen 3 artış miktarı\n            let incrementAmount = Math.floor(Math.random() * 3) + 1;\n            purchaseCount += incrementAmount;\n            purchaseCountElement.textContent = purchaseCount;\n\n            // Sonraki artış süresini rastgele 2 ila 8 saniye arasında belirle\n            const nextUpdateDelay = Math.floor(Math.random() * 6000) + 2000;\n\n            setTimeout(updatePurchaseCount, nextUpdateDelay);\n        }\n\n        updatePurchaseCount();\n    </script>\n\n</body>\n</html>"
           }
         },
-        "liquid_hQry37": {
+        "liquid_xCDk7e": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Customer Reviews</title>\n<style>\n  body.unique-body-Abc987 {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100vh;\n    margin: 0;\n    background-color: #f4f4f4;\n  }\n\n  .unique-review-wrapper-Def654 {\n    position: relative;\n    width: 100%;\n    max-width: 600px;\n    height: auto;\n  }\n\n  .unique-review-container-Ghi321 {\n    display: none;\n    align-items: center;\n    background-color: #f4f4f4;\n    border-radius: 12px;\n    padding: 16px;\n    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n    font-size: 14px;\n    color: #333;\n    width: 100%;\n    margin: 2px 0;\n  }\n\n  .unique-review-image-Jkl210 {\n    width: 50px;\n    height: 50px;\n    border-radius: 50%;\n    object-fit: cover;\n    margin-right: 16px;\n    border: 2px solid #e0e0e0;\n  }\n\n  .unique-review-content-Mno543 {\n    display: flex;\n    flex-direction: column;\n  }\n\n  .unique-review-author-Pqr876 {\n    display: flex;\n    align-items: center;\n    margin-bottom: 8px;\n  }\n\n  .unique-review-author-name-Stu789 {\n    font-weight: bold;\n    margin-right: 8px;\n  }\n\n  .unique-review-stars-Vwx654 {\n    display: flex;\n  }\n\n  .unique-review-stars-Vwx654 svg {\n    fill: #e897af;\n    width: 16px;\n    height: 16px;\n    margin-right: 2px;\n  }\n\n  .unique-review-text-Yza321 {\n    font-size: 14px;\n    color: #555;\n  }\n</style>\n</head>\n<body class=\"unique-body-Abc987\">\n\n<div class=\"unique-review-wrapper-Def654\">\n  <div class=\"unique-review-container-Ghi321 unique-review-1-Jkl987\">\n    <img class=\"unique-review-image-Jkl210\" src=\"https://www.hilaine.com/cdn/shop/files/WhatsApp_Image_2025-03-10_at_15.34.30.jpg?v=1749925939&width=710\" alt=\"Customer Image\">\n    <div class=\"unique-review-content-Mno543\">\n      <div class=\"unique-review-author-Pqr876\">\n        <span class=\"unique-review-author-name-Stu789\">Lori F.</span>\n        <div class=\"unique-review-stars-Vwx654\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n        </div>\n      </div>\n      <div class=\"unique-review-text-Yza321\">\n        \"My t-shirts used to hang with no shape. Since I started wearing the Hilaine bra, my chest feels lifted and more balanced — I feel supported, at ease, and way more confident in my clothes\"\n      </div>\n    </div>\n  </div>\n\n  <div class=\"unique-review-container-Ghi321 unique-review-2-Qwe456\">\n    <img class=\"unique-review-image-Jkl210\" src=\"https://cdn.shopify.com/s/files/1/0918/4759/0218/files/IMG_8148_b384cb57-0609-4973-ad20-9a47cb9022be.jpg?v=1748037119\" alt=\"Customer Image\">\n    <div class=\"unique-review-content-Mno543\">\n      <div class=\"unique-review-author-Pqr876\">\n        <span class=\"unique-review-author-name-Stu789\">John D.</span>\n        <div class=\"unique-review-stars-Vwx654\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n        </div>\n      </div>\n      <div class=\"unique-review-text-Yza321\">\n        « With age, finding an all-day comfortable bra became nearly impossible — especially during this time of year. But with Hilabelle, it’s like wearing nothing. It’s incredibly soft, featherlight.»\n      </div>\n    </div>\n  </div>\n\n  <div class=\"unique-review-container-Ghi321 unique-review-3-Rty789\">\n    <img class=\"unique-review-image-Jkl210\" src=\"https://cdn.shopify.com/s/files/1/0696/0912/8108/files/Capture_d_ecran_2025-06-05_a_11.30.25.png?v=1749148241\" alt=\"Customer Image\">\n    <div class=\"unique-review-content-Mno543\">\n      <div class=\"unique-review-author-Pqr876\">\n        <span class=\"unique-review-author-name-Stu789\">Emily R.</span>\n        <div class=\"unique-review-stars-Vwx654\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n        </div>\n      </div>\n      <div class=\"unique-review-text-Yza321\">\n        \"I finally found a bra that actually supports, lifts, and separates — perfectly. I feel confident, sculpted, and my shape looks amazing.\"\n      </div>\n    </div>\n  </div>\n</div>\n\n<script>\n  const reviews = document.querySelectorAll('.unique-review-container-Ghi321');\n  let currentIndex = 0;\n\n  function showNextReview() {\n    reviews[currentIndex].style.display = 'none';\n    currentIndex = (currentIndex + 1) % reviews.length;\n    reviews[currentIndex].style.display = 'flex';\n  }\n\n  reviews[currentIndex].style.display = 'flex';\n  setInterval(showNextReview, 4000);\n</script>\n\n</body>\n</html>"
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Customer Reviews</title>\n<style>\n  body.unique-body-Abc987 {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100vh;\n    margin: 0;\n    background-color: #f4f4f4;\n  }\n\n  .unique-review-wrapper-Def654 {\n    position: relative;\n    width: 100%;\n    max-width: 600px;\n    height: auto;\n  }\n\n  .unique-review-container-Ghi321 {\n    display: none;\n    align-items: center;\n    background-color: #f4f4f4;\n    border-radius: 12px;\n    padding: 16px;\n    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n    font-size: 14px;\n    color: #333;\n    width: 100%;\n    margin: 2px 0;\n  }\n\n  .unique-review-image-Jkl210 {\n    width: 50px;\n    height: 50px;\n    border-radius: 50%;\n    object-fit: cover;\n    margin-right: 16px;\n    border: 2px solid #e0e0e0;\n  }\n\n  .unique-review-content-Mno543 {\n    display: flex;\n    flex-direction: column;\n  }\n\n  .unique-review-author-Pqr876 {\n    display: flex;\n    align-items: center;\n    margin-bottom: 8px;\n  }\n\n  .unique-review-author-name-Stu789 {\n    font-weight: bold;\n    margin-right: 8px;\n  }\n\n  .unique-review-stars-Vwx654 {\n    display: flex;\n  }\n\n  .unique-review-stars-Vwx654 svg {\n    fill: #e897af;\n    width: 16px;\n    height: 16px;\n    margin-right: 2px;\n  }\n\n  .unique-review-text-Yza321 {\n    font-size: 14px;\n    color: #555;\n  }\n</style>\n</head>\n<body class=\"unique-body-Abc987\">\n\n<div class=\"unique-review-wrapper-Def654\">\n  <div class=\"unique-review-container-Ghi321 unique-review-1-Jkl987\">\n    <img class=\"unique-review-image-Jkl210\" src=\"https://www.hilaine.com/cdn/shop/files/WhatsApp_Image_2025-03-10_at_15.34.30.jpg?v=1749925939&width=710\" alt=\"Customer Image\">\n    <div class=\"unique-review-content-Mno543\">\n      <div class=\"unique-review-author-Pqr876\">\n        <span class=\"unique-review-author-name-Stu789\">Lori F.</span>\n        <div class=\"unique-review-stars-Vwx654\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n        </div>\n      </div>\n      <div class=\"unique-review-text-Yza321\">\n        \"My t-shirts used to hang with no shape. Since I started wearing the Hilaine bra, my chest feels lifted and more balanced I feel supported, at ease, and way more confident in my clothes\"\n      </div>\n    </div>\n  </div>\n\n  <div class=\"unique-review-container-Ghi321 unique-review-2-Qwe456\">\n    <img class=\"unique-review-image-Jkl210\" src=\"https://cdn.shopify.com/s/files/1/0918/4759/0218/files/IMG_8148_b384cb57-0609-4973-ad20-9a47cb9022be.jpg?v=1748037119\" alt=\"Customer Image\">\n    <div class=\"unique-review-content-Mno543\">\n      <div class=\"unique-review-author-Pqr876\">\n        <span class=\"unique-review-author-name-Stu789\">John D.</span>\n        <div class=\"unique-review-stars-Vwx654\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n        </div>\n      </div>\n      <div class=\"unique-review-text-Yza321\">\n        « With age, finding an all-day comfortable bra became nearly impossible especially during this time of year. But with Hilabelle, it’s like wearing nothing. It’s incredibly soft, featherlight, and truly effortless. »\n      </div>\n    </div>\n  </div>\n\n  <div class=\"unique-review-container-Ghi321 unique-review-3-Rty789\">\n    <img class=\"unique-review-image-Jkl210\" src=\"https://cdn.shopify.com/s/files/1/0696/0912/8108/files/Capture_d_ecran_2025-06-05_a_11.30.25.png?v=1749148241\" alt=\"Customer Image\">\n    <div class=\"unique-review-content-Mno543\">\n      <div class=\"unique-review-author-Pqr876\">\n        <span class=\"unique-review-author-name-Stu789\">Emily R.</span>\n        <div class=\"unique-review-stars-Vwx654\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n        </div>\n      </div>\n      <div class=\"unique-review-text-Yza321\">\n        \"I finally found a bra that actually supports, lifts, and separates perfectly. I feel confident, sculpted, and my shape looks amazing.\"\n      </div>\n    </div>\n  </div>\n</div>\n\n<script>\n  const reviews = document.querySelectorAll('.unique-review-container-Ghi321');\n  let currentIndex = 0;\n\n  function showNextReview() {\n    reviews[currentIndex].style.display = 'none';\n    currentIndex = (currentIndex + 1) % reviews.length;\n    reviews[currentIndex].style.display = 'flex';\n  }\n\n  reviews[currentIndex].style.display = 'flex';\n  setInterval(showNextReview, 4000);\n</script>\n\n</body>\n</html>"
           }
         },
-        "pickup_availability_j7hd8j": {
+        "pickup_availability_irbNeV": {
           "type": "pickup_availability",
           "settings": {}
         },
-        "collapsible_text_kifFaX": {
+        "collapsible_text_EMbBJR": {
           "type": "collapsible_text",
           "settings": {
             "title": "Only our website guarantees authenticity",
             "content": "<p>Warning: Our products are only sold on our official website. Items sold on third-party platforms (e.g. Amazon) are counterfeit and low quality. To guarantee authenticity, order directly from us. We do not take responsibility for purchases made elsewhere.</p>"
           }
         },
-        "collapsible_text_iVQrwK": {
+        "collapsible_text_UqKYaj": {
           "type": "collapsible_text",
           "settings": {
             "title": "Does this bra actually make my bust look smaller?",
             "content": "<p>Absolutely! This bra subtly sculpts and balances your bust for a naturally smaller look — no flattening, no discomfort, just pure confidence.</p>"
           }
         },
-        "collapsible_text_F4bMKT": {
+        "collapsible_text_YEBzAk": {
           "type": "collapsible_text",
           "settings": {
             "title": "What exactly do minimizer bras do?",
             "content": "<p><strong>The central space subtly separates the bust and redistributes it toward the sides, sculpting a refined hourglass silhouette—without the overflow you often get with standard bras.</strong></p><p><strong>Unlike push-up bras that amplify volume by pushing inward, our minimizer bras create visual balance by encouraging a gentle outward spread. The result? A beautifully natural, smoothed shape—think of softly reshaping a sphere for a more graceful contour.</strong></p>"
           }
         },
-        "collapsible_text_Kmx9bd": {
+        "collapsible_text_jn4iAh": {
           "type": "collapsible_text",
           "settings": {
             "title": "Any care instructions I should follow?",
             "content": "<p><strong>1. Hand Wash with Love</strong><br/><br/>Gently hand wash your lace bra (87% nylon, 13% spandex) in cold water, or use a delicate machine cycle. This helps preserve the fine fibers and stretch.</p><p><strong>2. Use Mild Detergent Only</strong><br/><br/>Choose a gentle, lingerie-safe detergent. Avoid bleach or fabric softeners, which can weaken the fabric and elasticity over time.</p><p><strong>3. Air Dry with Care</strong><br/><br/>After washing, press the bra gently between a towel to remove excess water. Lay it flat or hang to dry—never tumble dry or expose to direct sunlight, as this may cause fading.</p><p><strong>4. Store It Right</strong><br/><br/>Fold neatly or hang by the center gore to help it maintain its shape. Keep away from humidity and sunlight to protect the delicate lace.</p><p><strong>5. Know When to Let Go</strong><br/><br/>Replace your bra once the stretch weakens, support fades, or the lace shows signs of wear—because your comfort and shape deserve the best.</p>"
           }
         },
-        "collapsible_text_W8Vy9g": {
+        "collapsible_text_CR6d4b": {
           "type": "collapsible_text",
           "settings": {
             "title": "Am I subject to any additional fees, charges, or tariffs?",
@@ -189,21 +194,21 @@
         }
       },
       "block_order": [
-        "liquid_Ej6Qc9",
-        "title_Cc49GW",
-        "liquid_U3XLdn",
-        "kiwi_size_chart_recommender_kiwi_sizing_4gbWGi",
-        "kaching_bundles_app_block_4dLzxN",
-        "buy_buttons_6xiDPr",
-        "liquid_QBQFVG",
-        "liquid_dR7dAE",
-        "liquid_hQry37",
-        "pickup_availability_j7hd8j",
-        "collapsible_text_kifFaX",
-        "collapsible_text_iVQrwK",
-        "collapsible_text_F4bMKT",
-        "collapsible_text_Kmx9bd",
-        "collapsible_text_W8Vy9g"
+        "liquid_rYVbLd",
+        "title_arkNA9",
+        "offer_jrwdWJ",
+        "liquid_wGQ7kY",
+        "kaching_bundles_app_block_yq4UQh",
+        "buy_buttons_C3RXcz",
+        "liquid_izPaUM",
+        "liquid_zW4ktX",
+        "liquid_xCDk7e",
+        "pickup_availability_irbNeV",
+        "collapsible_text_EMbBJR",
+        "collapsible_text_UqKYaj",
+        "collapsible_text_YEBzAk",
+        "collapsible_text_jn4iAh",
+        "collapsible_text_CR6d4b"
       ],
       "name": "Featured product",
       "settings": {
@@ -390,7 +395,7 @@
         "allow_transparent_header": true,
         "autoplay": true,
         "video_size": "auto",
-        "video": "shopify://files/videos/Design sans titre (3).mp4",
+        "video": "shopify://files/videos/Design sans titre (4).mp4",
         "external_video_url": "",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -589,7 +594,7 @@
         "stack_testimonials": false,
         "subheading": "",
         "title": "",
-        "content": "<h4>Elles en parlent le mieux</h4>",
+        "content": "<h4>Hear it from them</h4>",
         "link_url": "",
         "link_text": "",
         "background": "",
@@ -722,7 +727,7 @@
   "order": [
     "logo_list_3qey9k",
     "image_with_text_overlay_azWahJ",
-    "featured_product_kz4tjG",
+    "featured_product_9pXL79",
     "custom_liquid_GKQ7nL",
     "main",
     "multiple_images_with_text_Q9RyED",
