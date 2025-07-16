@@ -551,8 +551,8 @@
           "settings": {
             "image": "shopify://shop_images/Capture_d_ecran_2025-05-06_a_21.05.20.png",
             "round_avatar": true,
-            "show_rating": false,
-            "rating": 4,
+            "show_rating": true,
+            "rating": 5,
             "author": "Olivia S.",
             "title": "Actually feels good to wear",
             "content": "<p>No digging, no sweating, no constant adjusting. It’s the first bra I forget I’m even wearing.</p>"
@@ -563,7 +563,7 @@
           "settings": {
             "image": "shopify://shop_images/480085216_948672510724549_4341116539041244747_n.webp",
             "round_avatar": true,
-            "show_rating": false,
+            "show_rating": true,
             "rating": 5,
             "author": "Charlotte U.",
             "title": "Worth every penny",
@@ -575,8 +575,8 @@
           "settings": {
             "image": "shopify://shop_images/272469046_140953528373621_992082408942069320_n_1.png",
             "round_avatar": true,
-            "show_rating": false,
-            "rating": 4,
+            "show_rating": true,
+            "rating": 5,
             "author": "Amelia A.",
             "title": "I finally feel good in my clothes",
             "content": "<p>This bra smooths everything without flattening me. I feel confident, supported, and free. Can’t wear anything else now.</p>"
