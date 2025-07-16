@@ -124,21 +124,6 @@
         "overlay_opacity": 0
       }
     },
-    "video_E7cRGL": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": true,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/Design sans titre (3).mp4",
-        "external_video_url": "",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "featured_product_79DdBW": {
       "type": "featured-product",
       "blocks": {
@@ -295,6 +280,21 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "video_E7cRGL": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Design sans titre (4).mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "multiple_images_with_text_ryBwhd": {
@@ -606,9 +606,9 @@
     "slideshow",
     "logo_list_rndz9Q",
     "image_with_text_overlay_Mh7ppk",
-    "video_E7cRGL",
     "featured_product_79DdBW",
     "custom_liquid_jHpAQN",
+    "video_E7cRGL",
     "multiple_images_with_text_ryBwhd",
     "images_with_text_scrolling_m6X9d3",
     "images_with_text_scrolling_KEqixR",
