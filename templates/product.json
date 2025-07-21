@@ -588,6 +588,7 @@
         "testimonial_VVCj9g",
         "testimonial_JxDBwH"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "full_width": true,
@@ -765,8 +766,8 @@
     "images_with_text_scrolling_gf6PWR",
     "text_with_icons_U4tQBL",
     "testimonials_UiEgHR",
-    "faq_8nNfdK",
     "17515709275b9a0273",
+    "faq_8nNfdK",
     "1752705522ee47f04e"
   ]
 }
