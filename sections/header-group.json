@@ -11,33 +11,6 @@
   "type": "header",
   "name": "Header group",
   "sections": {
-    "1753228882dc794e20": {
-      "type": "apps",
-      "blocks": {
-        "profy_banner_countdown_timer_app_block_6QAk98": {
-          "type": "shopify://apps/profy-banner-countdown-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
-          "settings": {
-            "banner_id": ""
-          }
-        }
-      },
-      "block_order": [
-        "profy_banner_countdown_timer_app_block_6QAk98"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -60,7 +33,6 @@
         "message",
         "message_E9W3hp"
       ],
-      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "text_size": "text-base",
@@ -98,7 +70,6 @@
     }
   },
   "order": [
-    "1753228882dc794e20",
     "announcement-bar",
     "header"
   ]
