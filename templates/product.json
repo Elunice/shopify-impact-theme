@@ -108,6 +108,12 @@
             "heading_tag": "h3"
           }
         },
+        "description_YqygyP": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
         "offer_jrwdWJ": {
           "type": "offer",
           "settings": {
@@ -211,6 +217,7 @@
       "block_order": [
         "loox_reviews_loox_rating_wFEyHj",
         "title_arkNA9",
+        "description_YqygyP",
         "offer_jrwdWJ",
         "liquid_wGQ7kY",
         "liquid_7PzUUa",
