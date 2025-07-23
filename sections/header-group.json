@@ -33,6 +33,7 @@
         "message",
         "message_E9W3hp"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "text_size": "text-base",
